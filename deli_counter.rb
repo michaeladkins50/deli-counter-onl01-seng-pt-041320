@@ -21,4 +21,5 @@ def now_serving(katz_deli)
   else
     puts "Currently serving #{other_deli.first}."
     other_deli.shift
+  end
 end
