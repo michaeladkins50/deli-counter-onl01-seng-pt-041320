@@ -8,7 +8,7 @@ def line(katz_deli)
   end
 end
 def take_a_number(katz_deli, name)
-  if katz_deli.size == 0
+  if katz_deli == "there is noboby in line"
         katz_deli = name
       puts "Welcome, #{name}. You are number 1 in line."
   end
