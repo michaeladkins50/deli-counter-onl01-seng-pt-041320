@@ -9,7 +9,7 @@ def line(katz_deli)
 end
 def take_a_number(katz_deli, name)
   if line.size == 0
-        name << other_deli ["Grace"]
+        name << other_deli ("Grace")
       puts "Welcome, #{name}. You are number #{katz_deli.size} in line."
   end
 end
