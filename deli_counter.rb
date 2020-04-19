@@ -7,8 +7,8 @@ def line(katz_deli)
     puts "The line is currently:#{current_line.join("")}"
   end
 end
-def take_a_number(katz_deli, name)
-  if katz_deli == [""]
+def take_a_number(katz_deli, line)
+  if line.size == 0
         katz_deli = name
       puts "Welcome, #{name}. You are number 1 in line."
   end
